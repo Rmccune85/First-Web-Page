@@ -26,14 +26,14 @@
             margin-top: 20px;     /* Adds space above the iframe */
             width: 100%;          /* Makes it responsive */
             max-width: 400px;     /* Limits the width */
-            height: 80px;         /* Height for audio-like appearance */
+            height: 166px;        /* Standard height for SoundCloud embeds */
             border: none;         /* Removes border */
         }
     </style>
 </head>
 <body>
     <h1>Chris and Danni's first year riding together</h1>
-    <p>Watch these videos!</p>
+    <p>Watch these videos and listen to the music!</p>
 
     <h2>Chris and Danni's riding page</h2>
     <ul>
@@ -43,13 +43,13 @@
 
     <!-- Video -->
     <video width="640" height="360" controls>
-        <source src="(https://www.youtube.com/watch?v=FW3EW6HPZtg)" type="video/mp4">
+        <source src="https://www.youtube.com/watch?v=FW3EW6HPZtg" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
-    <!-- Audio from YouTube (Embedded using iframe with autoplay) -->
+    <!-- Audio from SoundCloud -->
     <iframe 
-        src="(https://soundcloud.com/user9245331/dierks-bentley-ride-on)" 
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/user9245331/dierks-bentley-ride-on&auto_play=true" 
         allow="autoplay">
     </iframe>
 </body>
