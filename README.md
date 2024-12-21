@@ -26,24 +26,23 @@
             height: 360px;        /* Standard height for YouTube videos */
             border: none;         /* Removes border */
         }
-        iframe {
-            margin-top: 20px;     /* Adds space above the iframe */
-            width: 100%;          /* Makes it responsive */
-            max-width: 400px;     /* Limits the width */
-            height: 80px;         /* Height for audio-like appearance */
-            border: none;         /* Removes border */
-        }
     </style>
 </head>
 <body>
-    <h1>Chris and Danni's first year riding together</h1>
+    <h1>Chris and Danni's First Year Riding Together</h1>
     <p>Watch these videos and listen to the music!</p>
 
-    <h2>Chris and Danni's riding page</h2>
+    <h2>Chris and Danni's Riding Page</h2>
     <ul>
         <li>Coming home from Barry Dyngles</li>
         <li>Experience the ride.</li>
     </ul>
+    
+    <!-- Second Video -->
+    <video width="640" height="360" controls>
+        <source src="./Chris_n_Danni.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
     <!-- First Embedded YouTube Video -->
     <iframe 
@@ -54,7 +53,7 @@
 
     <!-- Second Video -->
     <video width="640" height="360" controls>
-        <source src="Chris_n_Danni.mp4" type="video/mp4">
+        <source src="./Chris_n_Danni.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 
