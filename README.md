@@ -39,10 +39,7 @@
         Your browser does not support the video tag.
     </video>
 
-    <!-- Audio -->
-    <audio controls>
-        <source src="https://www.youtube.com/watch?v=A-_eGrRM2xI&t=13s" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
+    <!-- Audio from YouTube (Embedded using iframe) -->
+    <iframe src="https://www.youtube.com/embed/A-_eGrRM2xI?autoplay=0" allow="autoplay"></iframe>
 </body>
 </html>
