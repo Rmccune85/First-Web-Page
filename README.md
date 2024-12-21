@@ -30,13 +30,17 @@
 </head>
 <body>
     <h1>Chris and Danni's First Year Riding Together</h1>
-    <p>Watch these videos and listen to the music!</p>
+    <p>Watch these videos while listening to the music!</p>
+
+    
 
     <h2>Chris and Danni's Riding Page</h2>
     <ul>
         <li>Coming home from Barry Dyngles</li>
         <li>Experience the ride.</li>
     </ul>
+
+    
     <!-- Audio from SoundCloud -->
 <!-- Audio from SoundCloud -->
 <iframe 
