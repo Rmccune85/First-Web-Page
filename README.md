@@ -14,12 +14,20 @@
             box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5); /* Optional: Adds shadow */
         }
 
-        /* Styling for audio */
-        audio {
-            display: block;       /* Makes the audio player block-level for spacing */
-            margin-top: 20px;     /* Adds space above the audio player */
+        /* Styling for audio and video */
+        audio, video {
+            display: block;       /* Makes the player block-level for spacing */
+            margin-top: 20px;     /* Adds space above the player */
             width: 100%;          /* Makes it responsive */
-            max-width: 400px;     /* Limits the width to match the image */
+            max-width: 400px;     /* Limits the width */
+        }
+
+        iframe {
+            margin-top: 20px;     /* Adds space above the iframe */
+            width: 100%;          /* Makes it responsive */
+            max-width: 400px;     /* Limits the width */
+            height: 80px;         /* Height for audio-like appearance */
+            border: none;         /* Removes border */
         }
     </style>
 </head>
@@ -39,7 +47,10 @@
         Your browser does not support the video tag.
     </video>
 
-    <!-- Audio from YouTube (Embedded using iframe) -->
-    <iframe src="https://www.youtube.com/embed/A-_eGrRM2xI?autoplay=0" allow="autoplay"></iframe>
+    <!-- Audio from YouTube (Embedded using iframe with autoplay) -->
+    <iframe 
+        src="https://www.youtube.com/embed/A-_eGrRM2xI?autoplay=1" 
+        allow="autoplay">
+    </iframe>
 </body>
 </html>
