@@ -25,7 +25,7 @@
     </style>
 </head>
 <body>
-    <h1>Welcome Chris and Danni's first year riding </h1>
+    <h1>Chris and Danni's first year riding together</h1>
     <p>Watch these video's!</p>
 
     <h2>Chris and Danni's riding page</h2>
@@ -37,6 +37,10 @@
     <!-- Local Image -->
     <img src="https://github.com/Rmccune85/First-Web-Page/blob/main/Chris%20n%20Danni.mp4" alt="Chris and Danni">
 
+<video width="640" height="360" controls>
+  <source src="https://github.com/Rmccune85/First-Web-Page/blob/main/Chris%20n%20Danni.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
   	<!-- Local Audio -->
     <audio controls>
         <source src="[https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3](https://archive.org/details/Badboys_201702)" type="audio/mpeg">
