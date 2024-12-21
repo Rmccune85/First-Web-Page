@@ -30,12 +30,12 @@
 
     <h2>Chris and Danni's riding page</h2>
     <ul>
-        <li>I hope this works.</li>
-        <li>I want people to be able to expirence the ride. </li>
+        <li>Coming home from Barry Dyngles</li>
+        <li>Experience the ride.  </li>
     </ul>
 
     <!-- Local Image -->
-    <img src="Niles PD.jpg" alt="Chris and Danni">
+    <img src="https://github.com/Rmccune85/First-Web-Page/blob/main/Chris%20n%20Danni.mp4" alt="Chris and Danni">
 
   	<!-- Local Audio -->
     <audio controls>
