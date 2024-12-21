@@ -38,10 +38,13 @@
         <li>Experience the ride.</li>
     </ul>
     <!-- Audio from SoundCloud -->
+<!-- Audio from SoundCloud -->
 <iframe 
     src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/user9245331/dierks-bentley-ride-on&auto_play=true" 
-    allow="autoplay">
+    allow="autoplay" 
+    style="width: 100%; height: 166px; border: none;">
 </iframe>
+
 
     
     <!-- First Video -->
