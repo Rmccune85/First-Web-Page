@@ -37,8 +37,13 @@
         <li>Coming home from Barry Dyngles</li>
         <li>Experience the ride.</li>
     </ul>
+     <!-- Audio from SoundCloud -->
+    <iframe 
+        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/user9245331/dierks-bentley-ride-on&auto_play=true" 
+        allow="autoplay">
+    </iframe>
     
-    <!-- Second Video -->
+    <!-- First Video -->
     <video width="640" height="360" controls>
         <source src="Chris n Danni.mp4" type="video/mp4">
         Your browser does not support the video tag.
@@ -51,10 +56,6 @@
         allowfullscreen>
     </iframe>
 
-    <!-- Audio from SoundCloud -->
-    <iframe 
-        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/user9245331/dierks-bentley-ride-on&auto_play=true" 
-        allow="autoplay">
-    </iframe>
+   
 </body>
 </html>
