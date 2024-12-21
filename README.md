@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -38,12 +38,18 @@
         <li>Experience the ride.</li>
     </ul>
 
-    <!-- Embedded YouTube Video -->
+    <!-- First Embedded YouTube Video -->
     <iframe 
         src="https://www.youtube.com/embed/FW3EW6HPZtg?autoplay=1" 
         allow="autoplay; encrypted-media" 
         allowfullscreen>
     </iframe>
+
+    <!-- Second Video -->
+    <video width="640" height="360" controls>
+        <source src="Chris n Danni.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 
     <!-- Audio from SoundCloud -->
     <iframe 
