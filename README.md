@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -15,18 +15,15 @@
         }
 
         /* Styling for audio and video */
-        audio, video {
+        audio, video, iframe {
             display: block;       /* Makes the player block-level for spacing */
             margin-top: 20px;     /* Adds space above the player */
             width: 100%;          /* Makes it responsive */
-            max-width: 400px;     /* Limits the width */
+            max-width: 640px;     /* Limits the width */
         }
 
         iframe {
-            margin-top: 20px;     /* Adds space above the iframe */
-            width: 100%;          /* Makes it responsive */
-            max-width: 400px;     /* Limits the width */
-            height: 166px;        /* Standard height for SoundCloud embeds */
+            height: 360px;        /* Standard height for YouTube videos */
             border: none;         /* Removes border */
         }
     </style>
@@ -41,11 +38,12 @@
         <li>Experience the ride.</li>
     </ul>
 
-    <!-- Video -->
-    <video width="640" height="360" controls>
-        <source src="https://www.youtube.com/watch?v=FW3EW6HPZtg" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
+    <!-- Embedded YouTube Video -->
+    <iframe 
+        src="https://www.youtube.com/embed/FW3EW6HPZtg?autoplay=1" 
+        allow="autoplay; encrypted-media" 
+        allowfullscreen>
+    </iframe>
 
     <!-- Audio from SoundCloud -->
     <iframe 
