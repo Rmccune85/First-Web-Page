@@ -26,6 +26,13 @@
             height: 360px;        /* Standard height for YouTube videos */
             border: none;         /* Removes border */
         }
+        iframe {
+            margin-top: 20px;     /* Adds space above the iframe */
+            width: 100%;          /* Makes it responsive */
+            max-width: 400px;     /* Limits the width */
+            height: 80px;         /* Height for audio-like appearance */
+            border: none;         /* Removes border */
+        }
     </style>
 </head>
 <body>
