@@ -37,11 +37,12 @@
         <li>Coming home from Barry Dyngles</li>
         <li>Experience the ride.</li>
     </ul>
-     <!-- Audio from SoundCloud -->
-    <iframe 
-        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/user9245331/dierks-bentley-ride-on&auto_play=true" 
-        allow="autoplay">
-    </iframe>
+    <!-- Audio from SoundCloud -->
+<iframe 
+    src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/user9245331/dierks-bentley-ride-on&auto_play=true" 
+    allow="autoplay">
+</iframe>
+
     
     <!-- First Video -->
     <video width="640" height="360" controls>
